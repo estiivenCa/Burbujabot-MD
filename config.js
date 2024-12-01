@@ -53,15 +53,12 @@ global.namechannel = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 
 
-global.imagen3 = fs.readFileSync('./src/menus/Menu3.jpg');
-global.imagen4 = fs.readFileSync('./src/menus/Menu.jpg');
-global.imagen6 = fs.readFileSync('./src/menus/Menu3.jpg');
-global.imagen7 = fs.readFileSync('./src/menus/Menu5.jpg');
-global.imagen8 = fs.readFileSync('./src/menus/Menu4.jpg')
-global.logo3 = fs.readFileSync('./src/logo3.jpg')
+global.imagen3 = fs.readFileSync('./src/menus/Menu.jpg');
+global.imagen6 = fs.readFileSync('./src/menus/Menú2.jpg');
+global.imagen7 = fs.readFileSync('./src/menus/Menú3.jpg');
 
 
-global.photoSity = [imagen8, imagen3, imagen4, imagen6]
+global.photoSity = [ imagen3, imagen7, imagen6]
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰', orderTitle: 'Bang',  sellerJid: '0@s.whatsapp.net'}}}
