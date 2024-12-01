@@ -15,7 +15,7 @@ global.confirmCode = ''
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
   ['573204545069', 'Stiiven', true],
-  ['573028488839', 'Stiiven', true],
+  ['5217295615594', 'burbuja', true],
   ['5216645011701']
 ];
 
@@ -37,17 +37,17 @@ global.jadi = 'KanBotsitos'
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
 global.packsticker = ``
-global.packname = `✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰`
-global.author = ` {\n   {\n      ✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰\n      ────────\n      by Stiiven\n   }\n}`;
-global.wm = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰';
-global.titulowm = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰';
-global.titulowm2 = `✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰`
-global.igfg = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
-global.botname = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
-global.dev = 'Provided by Stiiven'
-global.textbot = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
-global.gt = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰';
-global.namechannel = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
+global.packname = `❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎`
+global.author = ` {\n   {\n      ❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎\n      ────────\n      by Stiiven\n   }\n}`;
+global.wm = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎';
+global.titulowm = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎';
+global.titulowm2 = `❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎`
+global.igfg = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎'
+global.botname = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎'
+global.dev = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎'
+global.textbot = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎'
+global.gt = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎';
+global.namechannel = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎'
 
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -63,13 +63,13 @@ global.photoSity = [ imagen3, imagen7, imagen6]
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰', orderTitle: 'Bang',  sellerJid: '0@s.whatsapp.net'}}}
 
-global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨' }}};
+global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨' }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐓𝐨𝐧𝐭𝐨 (￣へ ￣ ) 🔥' }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐓𝐨𝐧𝐭𝐨 (￣へ ￣ ) 🔥' }}};
 
-global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 💥' }}};
+global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎'.whatsapp.net, h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 💥' }}};
 
-global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰`}}}
+global.fgif2 = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰`}}}
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp4 = 'https://chat.whatsapp.com/C5xsN9KcmIs8O1wNeOkcX9' //Grupo Oficial De Megumin
