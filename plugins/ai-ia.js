@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, command, text }) => {
     const isQuotedImage = m.quoted && (m.quoted.msg || m.quoted).mimetype && (m.quoted.msg || m.quoted).mimetype.startsWith('image/')
     const username = `${conn.getName(m.sender)}`
-    const basePrompt = `Hola ${username} este es KanBot creado por Stiiven el Mejor Bot De Whatsapp`
+    const basePrompt = `Hola ${username} esta es ❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎ ❤︎ creado por burbuja el Mejor Bot De Whatsapp y la queso 💋`
 
     if (isQuotedImage) {
         const q = m.quoted
@@ -68,13 +68,13 @@ async function fetchFromAPIs(query) {
             const data = await response.json();
 
             if (api.includes('starlights-team') && data.creator) {
-                return `*Hola!👋 soy KanBot Provided By Stiiven*: ${data.result}`;
+                return `*holi!🦋 soy 𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡 Provided By 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*: ${data.result}`;
             }
             if (api.includes('widipe') && data.status) {
-                return `*Hola!👋 soy KanBot Provided By Stiiven*: ${data.result}`;
+                return `*Holi!🦋 soy 𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡 Provided By 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*: ${data.result}`;
             }
             if (api.includes('fgmods') && data.status) {
-                return `*Hola!👋 soy KanBot Provided By Stiiven*: ${data.result}`;
+                return `*Holi!🦋 soy 𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡 Provided By 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*: ${data.result}`;
             }
         } catch (error) {
             console.error(`🚩 Error al obtener respuesta de ${api}:`, error);
@@ -89,16 +89,16 @@ async function fetchFromAPIs(query) {
             const data = await response.json();
 
             if (api.includes('bingia') && data.status) {
-                return `*Hola!👋 soy KanBot Provided By Stiiven*: ${data.message}`;
+                return `*Holi!🫧 soy 𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡 Provided By 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*: ${data.message}`;
             }
             if (api.includes('gemini') && data.status) {
-                return `*Hola!👋 soy KanBot Provided By Stiiven*: ${data.message}`;
+                return `*Holi!🫧 soy 𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡 Provided By 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*: ${data.message}`;
             }
             if (api.includes('gpt-pro') && data.status) {
-                return `*Hola!👋 soy KanBot Provided By Stiiven*: ${data.data.message}`;
+                return `*Holi!🫧 soy 𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡 Provided By 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*: ${data.data.message}`;
             }
             if (api.includes('gpt4-mini') && data.status) {
-                return `*Hola!👋 soy KanBot Provided By Stiiven*: ${data.data.message}`;
+                return `*Holi!🫧 soy 𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡 Provided By 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*: ${data.data.message}`;
             }
         } catch (error) {
             console.error(`🚩 Error al obtener respuesta de ${api}:`, error);
