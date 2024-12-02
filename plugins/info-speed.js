@@ -34,7 +34,7 @@ let texto = `🚩 *${global.botname}*
 🏆 *Servidor:*
 ➤ *Ram ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}
 
-👑 *Provided by Stiiven*`.trim()
+👑 *Provided by 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*`.trim()
 
 m.react('✈️')
 
