@@ -14,8 +14,8 @@ let handler = async (m, { conn, command, args }) => {
                 mediaUrl: null,
                 mediaType: 1,
                 showAdAttribution: true,
-                title: '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰',
-                body: 'by Stiiiven',
+                title: '❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎ ❤︎',
+                body: 'by 𝐵𝑢𝑟𝑏𝑢𝑗𝑎',
                 previewType: 0,
                 sourceUrl: channel
             }
