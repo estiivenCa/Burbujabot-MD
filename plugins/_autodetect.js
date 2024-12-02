@@ -34,7 +34,7 @@ console.log(`⚠️ Eliminacion YoshiSession (PreKey) que provocan el undefined 
     let newUser = m.messageStubParameters[0] + '@s.whatsapp.net';
     let userName = (await conn.getName(newUser)) || 'nuevo miembro';
     await conn.sendMessage(m.chat, { 
-      text: `🫧 ¡Bienvenido(a) ${userName}! 🫧\nEspero que te sientas cómodo y disfrutes esta hermosa comunidad🦋 ${groupName}.\n\n_*Recuerda leer la descripción para evitar malentendidos y discuciones*_🌸\n\n> ❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎❤︎` 
+      text: `🫧 ¡Bienvenido(a) ${userName}! 🫧\nestamos alegres de que eligeras estar aqui🦋 ${groupName}.\n\n_*Recuerda leer la descripción para evitar malentendidos y discuciones*_🌸\n\n> ❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎❤︎` 
     }, { 
       contextInfo: { 
         mentionedJid: [newUser], 
@@ -57,7 +57,7 @@ console.log(`⚠️ Eliminacion YoshiSession (PreKey) que provocan el undefined 
     let removedUser = m.messageStubParameters[0] + '@s.whatsapp.net';
     let userName = (await conn.getName(removedUser)) || 'miembro';
     await conn.sendMessage(m.chat, { 
-      text: `👋 ${userName} se ha despedido. ¡Le deseamos lo mejor!\n\n> KanBot by Stiiven🍁` 
+      text: `🦋 ${userName} no soporto💋. ¡Le deseamos lo mejor y que regrese con su ex 🌸!\n\n> ❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎ ❤︎` 
     }, { 
       contextInfo: { 
         mentionedJid: [removedUser], 
