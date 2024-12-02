@@ -54,7 +54,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
         ['Imagen 4', dev, await res.getRandom(), [[]], [[]], [[]], [[]]]
     ];
 
-    await conn.sendCarousel(m.chat, `🚩 Resultado de ${text}`, '🔎 ✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰ by Stiiven', null, messages, m);
+    await conn.sendCarousel(m.chat, `🚩 Resultado de ${text}`, '🔎 𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡 by 𝐵𝑢𝑟𝑏𝑢𝑗𝑎', null, messages, m);
 };
 
 handler.help = ['imagen <query>'];
