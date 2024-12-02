@@ -34,7 +34,7 @@ console.log(`⚠️ Eliminacion YoshiSession (PreKey) que provocan el undefined 
     let newUser = m.messageStubParameters[0] + '@s.whatsapp.net';
     let userName = (await conn.getName(newUser)) || 'nuevo miembro';
     await conn.sendMessage(m.chat, { 
-      text: `🎉 ¡Bienvenido(a) ${userName}! 🎉\nEsperamos que disfrutes tu estancia en el grupo ${groupName}.\n\n_*Recuerda leer la descripción*_🌚\n\n> KanBot by Stiiven🍁` 
+      text: `🫧 ¡Bienvenido(a) ${userName}! 🫧\nEspero que te sientas cómodo y disfrutes esta hermosa comunidad🦋 ${groupName}.\n\n_*Recuerda leer la descripción para evitar malentendidos y discuciones*_🌸\n\n> ❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎❤︎` 
     }, { 
       contextInfo: { 
         mentionedJid: [newUser], 
