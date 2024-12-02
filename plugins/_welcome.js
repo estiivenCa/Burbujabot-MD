@@ -18,7 +18,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
  if (chat.welcome && m.messageStubType === 27) {
     this.sendMessage(m.chat, {
-        text: `╭══•🔥ೋ•๑♡๑•ೋ🔥•══╮\n¡Bienvenido/a,  @${m.messageStubParameters[0].split`@`[0]}!\n╰══•🔥 ೋ•๑♡๑•ೋ 🔥•══╯\n\nEsperamos que disfrutes tu estancia en el grupo.\n*_Recuerda leer la descripción_*\n🥀*ੈ✩‧₊˚༺☆༻*ੈ✩˚🍁`,
+        text: `╭══•🫧ೋ•๑♡๑•ೋ🫧•══╮\n¡Bienvenido/a,  @${m.messageStubParameters[0].split`@`[0]}!\n╰══•🦋 ೋ•๑♡๑•ೋ 🦋•══╯\n\nEsperamos que disfrutes tu estancia en esta comunidad🩵✨️.\n*_Recuerda leer la descripción para evitar malentendidos_*\n🦋*ੈ✩‧₊˚༺☆༻*ੈ✩˚🫧`,
         contextInfo: {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363318891913110@newsletter",
@@ -43,7 +43,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
 if (chat.welcome && (m.messageStubType === 28 || m.messageStubType === 32)) {
     this.sendMessage(m.chat, {
-        text: `╭══•🔥ೋ•๑♡๑•ೋ🔥•══╮\n¡Adiós, @${m.messageStubParameters[0].split`@`[0]}!\n╰══•🔥 ೋ•๑♡๑•ೋ 🔥•══╯\n\nGracias por haber estado con nosotros.\n🥀*ੈ✩‧₊˚༺☆༻*ੈ✩˚🍁`,
+        text: `╭══•🦋ೋ•๑♡๑•ೋ🦋•══╮\n¡Adiós, lamento si soportaste🤷🏻‍♀️ , @${m.messageStubParameters[0].split`@`[0]}!\n╰══•🫧 ೋ•๑♡๑•ೋ 🫧•══╯\n\nGracias por haber estado con nosotros y espero que regreses con tu ex✨️.\n🦋*ੈ✩‧₊˚༺☆༻*ੈ✩˚🫧`,
         contextInfo: {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363318891913110@newsletter",
