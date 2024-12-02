@@ -26,8 +26,8 @@ let handler = async (m, { text, conn }) => {
         txt += `> *𝙻𝚒𝚗𝚔* : _https://www.youtube.com/watch?v=${videoId}_\n`;
         txt += `*🚀 𝙎𝙀 𝙀𝙎𝙏𝘼 𝘿𝙀𝙎𝘾𝙰𝙍𝙂𝙔𝙀𝙉𝙏𝙊 𝙎𝙐 𝘼𝙐𝘿𝙄𝙊, 𝙀𝙎𝙋𝙀𝙍𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊*\n`;
         txt += '===========================\n';
-        txt += '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰\n ';
-        txt += '> *Provided by Stiiven*\n ';
+        txt += '❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎ ❤︎\n ';
+        txt += '> *Provided by 𝐵𝑢𝑟𝑏𝑢𝑗𝑎*\n ';
 
         await conn.sendMessage(m.chat, { 
             image: { url: thumbnail }, 
