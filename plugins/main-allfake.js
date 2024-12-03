@@ -35,11 +35,11 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/573204545063'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/5351524614'
-global.namechannel = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
-global.namechannel2 = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
-global.namegrupo = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
-global.namecomu = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
-global.namecomu2 = '✰ 𝙺𝚊𝚗𝙱𝚘𝚝 ✰'
+global.namechannel = '❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎ ❤︎'
+global.namechannel2 = '☘︎𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡✍︎☘︎'
+global.namegrupo = '❤︎☺︎︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕☺︎︎❤︎'
+global.namecomu = '❤︎𝑩𝒖𝒓𝒃𝒖𝒋𝒂𝑩𝒐𝒕✍︎ ❤︎'
+global.namecomu2 = '☘︎𝐵𝑢𝑟𝑏𝑢𝑗𝑎𝐵𝑜𝑡✍︎☘︎'
 global.colab1 = ''
 global.colab2 = ''
 global.colab3 = ''
@@ -102,12 +102,12 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://telegra.ph/file/123417e4c7ab0d575982d.jpg',
-'https://telegra.ph/file/123417e4c7ab0d575982d.jpg',
-'https://telegra.ph/file/123417e4c7ab0d575982d.jpg',
-'https://telegra.ph/file/123417e4c7ab0d575982d.jpg',
-'https://telegra.ph/file/123417e4c7ab0d575982d.jpg',
-'https://telegra.ph/file/123417e4c7ab0d575982d.jpg'
+'https://qu.ax/MhzZM.jpg',
+'https://qu.ax/cbBZc.jpg',
+'https://qu.ax/hEPkL.jpg',
+'https://qu.ax/MhzZM.jpg',
+'https://qu.ax/cbBZc.jpg',
+'https://qu.ax/hEPkL.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: global.channel, serverMessageId: 100, newsletterName: namechannel, }, externalAdReply: { showAdAttribution: true, title: textbot, body: 'by Stiiven', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
