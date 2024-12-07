@@ -43,7 +43,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
 if (chat.welcome && (m.messageStubType === 28 || m.messageStubType === 32)) {
     this.sendMessage(m.chat, {
-        text: `╭══•🦋ೋ•๑♡๑•ೋ🦋•══╮\n¡Adiós, lamento si soportaste🤷🏻‍♀️ , @${m.messageStubParameters[0].split`@`[0]}!\n╰══•🫧 ೋ•๑♡๑•ೋ 🫧•══╯\n\nGracias por haber estado con nosotros y espero que regreses con tu ex✨️.\n🦋*ੈ✩‧₊˚༺☆༻*ੈ✩˚🫧`,
+        text: `╭══•🦋ೋ•๑♡๑•ೋ🦋•══╮\n¡Adiós, lamento si no soportaste🤷🏻‍♀️ , @${m.messageStubParameters[0].split`@`[0]}!\n╰══•🫧 ೋ•๑♡๑•ೋ 🫧•══╯\n\nGracias por haber estado con nosotros y espero que regreses con tu ex✨️.\n🦋*ੈ✩‧₊˚༺☆༻*ੈ✩˚🫧`,
         contextInfo: {
             forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363318891913110@newsletter",
